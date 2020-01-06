@@ -1,0 +1,24 @@
+{
+  "words": [
+    {
+      "word": "first",
+      "definition": "first definition",
+      "learnt": true
+    },
+    {
+      "word": "second",
+      "definition": "second definition",
+      "learnt": false
+    },
+    {
+      "word": "third",
+      "definition": "third definition",
+      "learnt": false
+    },
+    {
+      "word": "fourth",
+      "definition": "fourth definition",
+      "learnt": false
+    }
+  ]
+}
