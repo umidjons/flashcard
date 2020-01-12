@@ -1,0 +1,8 @@
+<div class="list-group">
+  <p class="list-group-item">{{question.text}}</p>
+  <a *ngFor="let answer of question.answers"
+     (click)="onSelect(answer)" class="list-group-item list-group-item-action"
+     [class.active]="answer.selected"
+     [class.list-group-item-success]="answer.selected && answer.points > 0"
+     [class.list-group-item-danger]="answer.selected && answer.points === 0">{{answer.text}}</a>
+</div>
